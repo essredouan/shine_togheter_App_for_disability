@@ -1,23 +1,19 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Node modules
+node_modules/
+
+# Environment variables
 .env
-# dependencies
-node_modules
-/.pnp
-.pnp.js
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Production build (if عندك build process)
+build/
+dist/
+
+# نظام تشغيل ملفات
+.DS_Store
+Thumbs.db
+
