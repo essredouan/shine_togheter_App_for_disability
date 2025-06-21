@@ -1,0 +1,34 @@
+.organizations-container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.organizations-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #1e40af;
+  margin-bottom: 2rem;
+}
+
+.organizations-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.organization-card {
+  background: #f9fafb;
+  border: 1px solid #cbd5e1;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.organization-card:hover {
+  transform: scale(1.02);
+  background-color: #f1f5f9;
+}
+

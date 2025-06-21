@@ -1,0 +1,140 @@
+/* Dashboard.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #e0f2fe; /* light blue background */
+  margin: 0;
+  padding: 0;
+  color: #334155; /* dark slate */
+}
+
+.min-h-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+  border-radius: 12px;
+  padding: 16px 32px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav a {
+  color: #2563eb; /* blue-600 */
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+nav a:hover {
+  color: #1e40af; /* blue-800 */
+}
+
+nav button {
+  margin-left: auto;
+  background-color: #dc2626; /* red-600 */
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+nav button:hover {
+  background-color: #b91c1c; /* red-700 */
+}
+
+.max-w-6xl {
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1e40af; /* blue-800 */
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.bg-white {
+  background-color: #ffffff;
+}
+
+.shadow-md {
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.hover\:shadow-xl:hover {
+  box-shadow: 0 10px 15px rgb(0 0 0 / 0.15);
+}
+
+.transition {
+  transition: all 0.3s ease;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #374151; /* gray-700 */
+}
+
+.text-gray-600 {
+  color: #4b5563;
+  margin-top: 0.5rem;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-gray-600 {
+  color: #4b5563;
+}
+
+footer {
+  background-color: #fff;
+  padding: 1rem;
+  margin-top: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 0.05);
+  font-size: 0.875rem;
+  color: #64748b; /* gray-500 */
+}

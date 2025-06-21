@@ -1,0 +1,187 @@
+/* HomePage.css */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f9fafb;
+  color: #111827;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: white;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logo-image {
+  width: 70px;
+  height: 75px;
+  object-fit: contain;
+}
+
+.logo-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+/* Nav buttons */
+.nav-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1.3rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Login Button */
+.login-btn {
+  background-color: #2563eb;
+}
+
+.login-btn:hover {
+  background-color: #1e40af;
+}
+
+/* Register Button */
+.register-btn {
+  background-color: #10b981;
+}
+
+.register-btn:hover {
+  background-color: #047857;
+}
+
+/* Hero Section */
+.hero {
+  padding: 4rem 1rem;
+  text-align: center;
+  background: linear-gradient(120deg, #dbeafe, #eff6ff);
+  color: #1e3a8a;
+}
+
+.hero h2 {
+  font-size: 2.7rem;
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  text-transform: uppercase;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  color: #374151;
+}
+
+/* Cards Section */
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  padding: 3rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 2rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: #111827;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 25px rgba(0,0,0,0.1);
+}
+
+.card-icon {
+  font-size: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Footer */
+footer {
+  background: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin-bottom: 1rem;
+}
+
+.social-icons a {
+  color: #e5e7eb;
+  margin: 0 0.8rem;
+  font-size: 1.4rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #60a5fa;
+}
+/* Logo container - صورة اللوغو والنص */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem; /* المسافة بين الصورة والنص */
+}
+
+/* حجم وصيغة صورة اللوغو */
+.logo-image {
+  width: 45px;        /* عرض اللوغو */
+  height: 45px;       /* ارتفاع اللوغو */
+  object-fit: contain; /* باش الصورة تحافظ على نسبها بدون تشويه */
+  border-radius: 6px; /* اختيارياً، تعطيها زوايا مدورة خفيفة */
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1); /* ظل خفيف للصورة */
+}
+
+/* نص اللوغو */
+.logo-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000000; /* أزرق سماوي */
+}
